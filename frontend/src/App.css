@@ -1,0 +1,88 @@
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.txt {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-top: 50px;
+}
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  width: 2px;
+  padding: 20px;
+  padding-left: 0px;
+}
+.payment-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px;
+  border-color: black;
+}
+.map-container {
+  height: 700px;
+}
+.sidebar {
+  background-color: rgba(35, 55, 75, 0.9);
+  padding: 6px 12px;
+  font-family: monospace;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  border-radius: 4px;
+}
+.img-display {
+  display: flex;
+  flex-direction: row;
+}
+.container-hs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container-hs-driver {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-div {
+  border: 2px solid;
+  border-radius: 12px;
+  padding: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 8px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(30, 0, 141, 0.771);
+}
+.container-div-driver {
+  border: 2px solid;
+  border-radius: 12px;
+  padding: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 8px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(2, 82, 255, 0.771);
+}
+
+.container-pay {
+  padding-left: 30px;
+  padding-right: 30px;
+}
